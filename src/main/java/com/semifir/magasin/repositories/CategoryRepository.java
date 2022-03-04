@@ -1,0 +1,7 @@
+package com.semifir.magasin.repositories;
+
+import com.semifir.magasin.models.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
